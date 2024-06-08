@@ -1,0 +1,31 @@
+body {
+    background-color: rgba(11, 63, 105, 0.726);
+}
+
+.container__um{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.titulo_um{
+    font-family: Georgia;
+    color: rgba(15, 28, 97, 0.966);
+}
+
+.botao_um {
+    margin-left: 8px;
+    margin-right: 400px;
+    background-color: #0a1485;
+    border-radius: 5px;
+    padding: 1em;
+    color: blueviolet;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_dois {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
